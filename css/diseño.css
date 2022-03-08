@@ -1,0 +1,136 @@
+body{
+	background-color: #205D5F;
+	border-image: 50px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	border-image: 200px; 
+	text-align: center;
+	font-size: x-large; 
+	margin-top: 5px;
+	border-image-outset: 100px;
+}
+input[type="text"], input[type="password"]{
+	font-size:medium;
+	outline: none;
+	padding: 12px;
+	display: block;
+	width: 320px;
+	border-radius: 20px;
+	border: 2px solid #eee;
+	margin: 20px auto;
+
+}
+input[type="submit"]{
+	font-size: large;
+	padding: 10px;
+	color: #fff;
+	background-color: #1673B0;
+	width: 250px;
+	margin: 20px auto;
+	margin-top: 5px;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+header{
+	background-color: #7f8f8f;
+	border-bottom: 3px solid orange;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	width: 100%
+	text-aling: center;
+	font-size: large;
+}
+header a{
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
+}
+h1{
+	color: white;
+}
+h2{
+	color: red;
+	margin: 20px auto;
+	background: #0098cb;
+}
+ul{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  border-radius: 20px;
+  padding: 15px;
+  background; 
+  width: 270px;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+  box-shadow: 20px 20px 20px black;
+}
+li a {
+  display:block;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+select {
+	outline: none;
+	padding: 20px;
+	display: block;
+	width: 340px;
+	border-radius: 20px;
+	border: 1px solid #eee;
+	margin: 20px auto;
+	font-size: medium;
+}
+td{
+color:black;
+padding: 5px;
+}
+th{
+	background-color: seagreen;
+	border-bottom: solid 2px red;
+	color: white;
+	font-weight: bold;
+}
+table{
+	background-color: white;
+	margin: 60px auto;
+	text-align: center;
+	border-color: black;
+	font-weight: bold;
+	border-style: inset;
+	border-collapse: collapse;
+}
+th:hover {
+  background-color: #555;
+  color: orange;
+}
+li b:hover{
+background-color: green;
+}
+nav a{
+	display: inline-block;
+	background-color: none;
+	color: white;	
+	text-decoration: none;
+	margin-bottom: 40px;
+	font-weight: bold;
+	border: ridge orange;
+}
+
+nav a:hover{
+	background-color: lightgreen;
+	color: black;
+	border: dotted black;
+}
+
